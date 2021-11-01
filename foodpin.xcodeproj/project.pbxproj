@@ -13,6 +13,7 @@
 		4E945103272FC24E0088050B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E945102272FC24E0088050B /* Assets.xcassets */; };
 		4E945106272FC24E0088050B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E945104272FC24E0088050B /* LaunchScreen.storyboard */; };
 		4E945110272FC72B0088050B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94510F272FC72B0088050B /* TableViewController.swift */; };
+		4E945113272FDDD30088050B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E945112272FDDD30088050B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E945105272FC24E0088050B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E945107272FC24E0088050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E94510F272FC72B0088050B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4E945112272FDDD30088050B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4E945104272FC24E0088050B /* LaunchScreen.storyboard */,
 				4E945107272FC24E0088050B /* Info.plist */,
 				4E94510F272FC72B0088050B /* TableViewController.swift */,
+				4E945112272FDDD30088050B /* TableViewCell.swift */,
 			);
 			path = foodpin;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E9450FA272FC24E0088050B /* AppDelegate.swift in Sources */,
+				4E945113272FDDD30088050B /* TableViewCell.swift in Sources */,
 				4E945110272FC72B0088050B /* TableViewController.swift in Sources */,
 				4E9450FC272FC24E0088050B /* SceneDelegate.swift in Sources */,
 			);
